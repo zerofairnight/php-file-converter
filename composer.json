@@ -1,0 +1,28 @@
+{
+    "name": "zerofairnight/php-file-converter",
+    "description": "A generic file converter for PHP",
+    "keywords": ["file", "converter", "file-converter", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zerofairnight",
+            "email": "zerofairnight@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "FileConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FileConverter\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
